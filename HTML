@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calcy.css">
+    <script src="calcy.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Permanent+Marker&family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+   <div class="background">
+       <div class="container">
+           <div class="screen">
+               <div class="screen-body">
+                   <div class="screen-body-left">
+                       <div class="title">
+                        Student<br>Grades<br>Calcy
+                       </div>
+                       
+                   </div>
+                    <div class="screen-body-right">
+                        <div class="body-form">
+                            <div class="form">
+                                <input type="text" placeholder="JAVA" class="inner" id="java">
+                            </div>
+                            <div class="form">
+                                <input type="text" placeholder="ENGLISH" class="inner" id="english">
+                            </div>
+                            <div class="form">
+                                <input type="text" placeholder="COMPUTER NETWORKS" class="inner"id="cn">
+                            </div>
+                            <div class="form">
+                                <input type="text" placeholder="OPERATING SYSTEM" class="inner" id="os">
+                            </div>
+                            <div class="form">
+                                <input type="text" placeholder="OOPS" class="inner" id="oops">
+                            </div>
+                            <div class="button">
+                                <input type="button" value="PERCENTAGE" class="inner-button" id="submit-button" onclick="solution()">
+                            </div>
+
+                        </div>
+                        
+                    </div>
+               </div>
+               <div class="main">
+               <div class="left">
+                <div class="marksobtained">
+                    <p id="marksobtainedID"></p>
+                </div>
+               </div>
+
+
+
+               <div class="right">
+                   
+                   <div class="percentage">
+                       <p id="percentageID"></p>
+                   </div>
+                   <div class="right1">
+                       <div class="d"></div>
+                       <p id="dID"></p>
+                   <div class="grade">
+                       <p id="gradeID"></p>
+                   </div>
+                   </div>
+
+                   <div class="right2">
+                    <div class="d2"></div>
+                        <p id="d2ID"></p>
+                        <div class="gradefail">
+                            <p id="gradefailID"></p>
+                        </div>
+                    
+                </div>
+
+                   
+               </div>
+               </div>
+               
+           
+       </div>
+
+   
+
+</body>
+
+</html>
